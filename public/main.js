@@ -3,7 +3,7 @@ getDice.onclick = () => {
 
     request.open('GET', '/ajax.js');
     request.onload = () => {
-        console.log(`request.response:\n${request.response}`);
+        // console.log(`request.response:\n${request.response}`);
 
         //创建script标签
         const javacript = document.createElement('script');

@@ -2,7 +2,7 @@
 function rollTheDice(fn) {
     setTimeout(() => {
         fn(parseInt(Math.random() * 6));
-    }, 1000);
+    }, 500);
     //return undefined;
 }
 
